@@ -1,0 +1,460 @@
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[16:59:32][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:09:34][WARN ](AbstractApplicationContext.java:559)-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+[17:09:34][ERROR](ContextLoader.java:313)-Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:228)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:211)
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:86)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:291)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4764)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5222)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:230)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:296)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:217)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:147)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:85)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:225)
+	... 50 more
+[17:11:03][WARN ](AbstractApplicationContext.java:559)-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+[17:11:03][ERROR](ContextLoader.java:313)-Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:228)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:211)
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:86)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:291)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4764)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5222)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:230)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:296)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:217)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:147)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:85)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:225)
+	... 50 more
+[17:15:03][WARN ](AbstractApplicationContext.java:559)-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+[17:15:03][ERROR](ContextLoader.java:313)-Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:228)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:211)
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:86)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:291)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4764)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5222)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:230)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:296)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:217)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:147)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:85)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:225)
+	... 50 more
+[17:15:55][WARN ](AbstractApplicationContext.java:559)-Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+[17:15:55][ERROR](ContextLoader.java:313)-Context initialization failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name 'dataSource' defined in ServletContext resource [/WEB-INF/spring/mybatis-context.xml]: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:228)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.processProperties(PropertyPlaceholderConfigurer.java:211)
+	at org.springframework.beans.factory.config.PropertyResourceConfigurer.postProcessBeanFactory(PropertyResourceConfigurer.java:86)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:291)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:707)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:533)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:401)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:292)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:103)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4764)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5222)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'jdbc.driverClassName' in value "${jdbc.driverClassName}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.beans.factory.config.PropertyPlaceholderConfigurer$PlaceholderResolvingStringValueResolver.resolveStringValue(PropertyPlaceholderConfigurer.java:230)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:296)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:217)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:147)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:85)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:225)
+	... 50 more
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:22:09][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:22:10][WARN ](DispatcherServlet.java:1251)-No mapping for GET /mytest04/
+[17:22:13][WARN ](DispatcherServlet.java:1251)-No mapping for GET /mytest04/main
+[17:22:17][WARN ](DispatcherServlet.java:1251)-No mapping for GET /mytest04/bookshop
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna_ko.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:22:23][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:23:28][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:23:29][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:23:29][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:23:33][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna_ko.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:23:34][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:24:24][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:24:25][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:24:25][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna_ko". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna_ko.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:24:30][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna_ko_KR". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna_ko_KR.xml as a non-localized resource path. see TILES-571
+[17:25:11][WARN ](DispatcherServlet.java:1251)-No mapping for GET /main
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:26:36][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:26:37][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:35:25][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:35:25][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:46:58][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:46:59][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:47:14][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_board". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_board.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_goods.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_member.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "admin_order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_admin_order.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "cart". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_cart.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "goods". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_goods.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "main". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_main.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "member". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_member.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "mypage". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_mypage.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "order". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_order.xml as a non-localized resource path. see TILES-571
+[17:50:14][WARN ](PostfixedApplicationResource.java:84)-No supported matching language for locale "qna". Using file:/C:/apache-tomcat-9-spr/wtpwebapps/bookShop01/WEB-INF/classes/tiles/tiles_qna.xml as a non-localized resource path. see TILES-571
+[17:50:15][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
+[17:50:15][WARN ](DispatcherServlet.java:1251)-No mapping for GET /
