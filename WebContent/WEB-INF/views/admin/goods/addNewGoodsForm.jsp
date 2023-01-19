@@ -56,7 +56,7 @@
 			<tr >
 				<td width=200 >제품분류</td>
 				<td width=500><select name="goods_sort">
-						<option value="과일" selected>과일
+						<option value="나이키" selected>나이키
 						<option value="밀키트">밀키트
 						<option value="베이커리">베이커리
 						<option value="정육,계란">정육,계란
