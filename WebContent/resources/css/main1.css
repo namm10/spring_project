@@ -1,0 +1,18 @@
+
+/*로그인,회원가입,고객센터*/
+header #head_link li {
+	padding: 0px 8px; border-right-color: rgb(153, 153, 153); border-right-width: 1px; 
+	border-right-style: solid; float: left;
+}
+
+/*검색창*/
+header #search .main_input { 
+	padding: 0px 5px; border: 3px solid #333333; border-image: none; width: 200px; 
+	height: 22px; border-radius:50px; margin-left:1000px;
+}
+
+/*검색버튼*/
+header #search .btn1 {
+	border: 1px solid #333333; border-radius:50px; border-image: none; width: 55px; 
+	height: 28px; color: #ffffff; margin-left: 2px; background-color: #333333;
+}
