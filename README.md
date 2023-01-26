@@ -16,12 +16,18 @@
 
 ![image-"기술스택"](img/TechnologyStack.jpg)
 </br>
-1. tomcat Server: Apache Tomcat 9
-2. Oracle: 11.2.0
-3. Spring: 4.3.9.22
-4. java: 11
-5. Mybatis: 3.4.6
-6. HicariCP: 2.7.4
+
+1. <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+   <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+   
+3. tomcat Server: Apache Tomcat 9
+4. Oracle: 11.2.0
+5. Spring: 4.3.9.22
+6. java: 11
+7. Mybatis: 3.4.6
+8. HicariCP: 2.7.4
     
 </br></br></br></br></br>
  
