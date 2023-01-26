@@ -71,22 +71,30 @@ https://www.miricanvas.com/v/11pnl9f
 
 ### :unlock: 사용자 (회원가입)
 </br>
-![회원가입](README.img/join.gif)
+
+![회원가입](img/join.gif)
+
 </br></br>
 
 ### :unlock: 사용자 (로그인)
 </br>
+
 ![로그인](img/login.gif)
+
 </br></br>
 
 ### :lock: 관리자 (로그인)
 </br>
+
 ![관리자로그인](img/adminlogin.gif)
+
 </br></br>
 
 ### :lock: 관리자 (상품등록)
 </br>
+
 ![상품등록](img/ProductRegistration.gif)
+
 </br></br>
 
 
@@ -95,17 +103,23 @@ https://www.miricanvas.com/v/11pnl9f
 
 ## 유스케이스 다이어그램
 </br>
+
 ![image-"유스케이스"](img/UseCase.gif)
+
 </br></br>
 
 ## 시퀀스 다이어그램
 </br>
+
 ![image-"유스케이스"](img/Sequence.png)
+
 </br></br>
 
 ## ERD
 </br>
+
 ![image-"유스케이스"](img/ERD.png)
+
 </br></br>
 
 
