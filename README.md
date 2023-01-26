@@ -91,6 +91,34 @@ https://www.miricanvas.com/v/11pnl9f
 
 </br></br>
 
+### :unlock: 사용자 (게시판글쓰기)
+</br>
+
+![게시판글쓰기](img/Board.gif)
+
+</br></br>
+
+### :unlock: 사용자 (게시판삭제)
+</br>
+
+![게시판삭제](img/BoardDelete.gif)
+
+</br></br>
+
+### :unlock: 사용자 (마이페이지 및 회원정보)
+</br>
+
+![마이페이지 및 회원정보](img/MyPage.gif)
+
+</br></br>
+
+### :unlock: 사용자 (주문)
+</br>
+
+![주문](img/Order.gif)
+
+</br></br>
+
 ### :lock: 관리자 (로그인)
 </br>
 
@@ -102,6 +130,20 @@ https://www.miricanvas.com/v/11pnl9f
 </br>
 
 ![상품등록](img/ProductRegistration.gif)
+
+</br></br>
+
+### :lock: 관리자 (상품이미지수정)
+</br>
+
+![상품이미지수정](img/ImageModify.gif)
+
+</br></br>
+
+### :lock: 관리자 (상품내용수정)
+</br>
+
+![상품내용수정](img/ContentModify.gif)
 
 </br></br>
 
