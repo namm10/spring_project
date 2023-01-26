@@ -21,11 +21,11 @@
    <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
    <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
    <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
-2. <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> : 11
-3. <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> : 4.3.9.22
-4. <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"> : 11.2.0
+2. <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 11
+3. <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 4.3.9.22
+4. <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"> 11.2.0
 5. Mybatis: 3.4.6
-6. <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> : tomcat Server 9
+6. <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> tomcat Server 9
 7. ajax
 8. HicariCP: 2.7.4
 
