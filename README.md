@@ -25,7 +25,7 @@
 
 
 
-## :paperclip: 발표 자료
+## :file_folder: 발표 자료
 
 https://www.miricanvas.com/v/11pnl9f
 
