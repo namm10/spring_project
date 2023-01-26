@@ -71,7 +71,7 @@ https://www.miricanvas.com/v/11pnl9f
 
 
 
-## 기술 스택
+## :wrench: 기술 스택
 
 ![image-"기술스택"](img/TechnologyStack.jpg)
 
@@ -104,14 +104,14 @@ https://www.miricanvas.com/v/11pnl9f
 
 
 
-## 요구사항명세서
+## :clipboard: 요구사항명세서
 
-### 사용자
+### :unlock: 사용자
 ![image-"사용자명세서"](img/user.png)
 
 
 
-### 관리자
+### :lock: 관리자
 ![image-"관리자명세서"](img/admin.png)
 
 
