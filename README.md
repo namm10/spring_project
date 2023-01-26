@@ -71,7 +71,7 @@ https://www.miricanvas.com/v/11pnl9f
 
 ### :unlock: 사용자 (회원가입)
 </br>
-![회원가입](img/join.gif)
+![회원가입](README.img/join.gif)
 </br></br>
 
 ### :unlock: 사용자 (로그인)
