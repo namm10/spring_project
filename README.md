@@ -48,22 +48,22 @@ https://www.miricanvas.com/v/11pnl9f
 ## :computer: 서비스 내용
 
 
-### :video_camera: 사용자 (회원가입)
+### :clapper: 사용자 (회원가입)
 
 ![회원가입](img/join.gif)
 
 
-### :video_camera: 사용자 (로그인)
+### :clapper: 사용자 (로그인)
 
 ![로그인](img/login.gif)
 
 
-### :video_camera: 관리자 (로그인)
+### :clapper: 관리자 (로그인)
 
 ![관리자로그인](img/adminlogin.gif)
 
 
-### :video_camera: 관리자 (상품등록)
+### :clapper: 관리자 (상품등록)
 
 ![상품등록](img/ProductRegistration.gif)
 
