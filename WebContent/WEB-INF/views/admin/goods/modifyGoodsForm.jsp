@@ -28,12 +28,11 @@ function init(){
 </c:when>
 </c:choose>
 <script type="text/javascript">
-function fn_modify_goods(goods_id,goods_title attribute){
+function fn_modify_goods(goods_id, attribute){
 	var frm_mod_goods=document.frm_mod_goods;
 	var value="";
 	if(attribute=='goods_sort'){
 		value=frm_mod_goods.goods_sort.value;
-		value=frm_mod_goods.goods_title.value;
 	}else if(attribute=='goods_title'){
 		value=frm_mod_goods.goods_title.value;
 	}else if(attribute=='goods_writer'){
@@ -68,8 +67,6 @@ function fn_modify_goods(goods_id,goods_title attribute){
 		value=frm_mod_goods.publisher_comment.value;
 	}else if(attribute=='recommendation'){
 		value=frm_mod_goods.recommendation.value;
-	}else if(attribute=='goods.*?'){
-		value=frm_mod_goods.goods.*?.value;
 	}
 
 
@@ -519,6 +516,6 @@ function fn_modify_goods(goods_id,goods_title attribute){
 	<DIV class="clear">
 	
 	</DIV>
-	<input  type="button" value="수정반영"  onClick="fn_modify_goods('${goods.goods_id }')"/>
+
 					
 </form>	
