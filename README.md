@@ -49,14 +49,20 @@ https://www.miricanvas.com/v/11pnl9f
 
 ### 사용자 (회원가입)
 
-![회원가입](join.gif)
+![회원가입](img/join.gif)
 
 
 ### 사용자 (로그인)
 
-![로그인](login.gif)
+![로그인](img/login.gif)
 
-### 학생 관리
+### 관리자 (로그인)
+
+![관리자로그인](img/adminlogin.gif)
+
+### 관리자 (로그인)
+
+![상품등록](img/ProductRegistration.gif)
 
 ![학생 제거,추가]
 
@@ -92,7 +98,7 @@ https://www.miricanvas.com/v/11pnl9f
 
 ## 기술 스택
 
-![image-"기술스택"](TechnologyStack.jpg)
+![image-"기술스택"](img/TechnologyStack.jpg)
 
  
 1. tomcat Server: Apache Tomcat 9
@@ -108,15 +114,15 @@ https://www.miricanvas.com/v/11pnl9f
 
 ## 유스케이스 다이어그램
 
-![image-"유스케이스"](UseCase.gif)
+![image-"유스케이스"](img/UseCase.gif)
 
 ## 시퀀스 다이어그램
 
-![image-"유스케이스"](Sequence.png)
+![image-"유스케이스"](img/Sequence.png)
 
 ## ERD
 
-![image-"유스케이스"](ERD.png)
+![image-"유스케이스"](img/ERD.png)
 
 ## 기능 정의서/API 명세서/테스트 시나리오
 
