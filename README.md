@@ -49,7 +49,7 @@ https://www.miricanvas.com/v/11pnl9f
 
 ### 사용자 (회원가입)
 
-![회원가입](img/join.gif)
+<img src="img/join.gif" width="800" height="450"/>
 
 
 ### 사용자 (로그인)
