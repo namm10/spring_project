@@ -11,6 +11,22 @@
 
 
 
+
+## :wrench: 기술 스택
+
+![image-"기술스택"](img/TechnologyStack.jpg)
+
+ 
+1. tomcat Server: Apache Tomcat 9
+2. Oracle: 11.2.0
+3. Spring: 4.3.9.22
+4. java: 11
+5. Mybatis: 3.4.6
+6. HicariCP: 2.7.4
+
+
+
+
 ## 👯팀원 정보 및 업무 분담 내역
 
 김진현 - 서버 개발
@@ -22,6 +38,22 @@
 유세영 - 디자인, 깃허브, README, 프론트엔드, 유스케이스다이어그램, 서버개발
 
 정상원 - 서버 개발
+
+
+
+
+
+## :clipboard: 요구사항명세서
+
+### :unlock: 사용자
+![image-"사용자명세서"](img/user.png)
+
+
+
+### :lock: 관리자
+![image-"관리자명세서"](img/admin.png)
+
+
 
 
 
@@ -71,20 +103,6 @@ https://www.miricanvas.com/v/11pnl9f
 
 
 
-## :wrench: 기술 스택
-
-![image-"기술스택"](img/TechnologyStack.jpg)
-
- 
-1. tomcat Server: Apache Tomcat 9
-2. Oracle: 11.2.0
-3. Spring: 4.3.9.22
-4. java: 11
-5. Mybatis: 3.4.6
-6. HicariCP: 2.7.4
-
-
-
 
 ## 유스케이스 다이어그램
 
@@ -104,15 +122,7 @@ https://www.miricanvas.com/v/11pnl9f
 
 
 
-## :clipboard: 요구사항명세서
 
-### :unlock: 사용자
-![image-"사용자명세서"](img/user.png)
-
-
-
-### :lock: 관리자
-![image-"관리자명세서"](img/admin.png)
 
 
 
