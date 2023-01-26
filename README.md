@@ -50,7 +50,7 @@ https://www.miricanvas.com/v/11pnl9f
 ### 사용자 (회원가입)
 
 
-<img src="join.gif  width="800" height="450"/>
+<img src="img/join.gif  width="800" height="450"/>
 
 
 ### 사용자 (로그인)
