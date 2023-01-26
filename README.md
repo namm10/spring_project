@@ -15,7 +15,7 @@
 ## :wrench: 기술 스택
 
 ![image-"기술스택"](img/TechnologyStack.jpg)
-</br></br></br></br></br>
+</br>
 1. tomcat Server: Apache Tomcat 9
 2. Oracle: 11.2.0
 3. Spring: 4.3.9.22
