@@ -48,7 +48,7 @@
 </br></br></br></br></br>
  
  
-## :squirrel: 구현기능
+## :computer: 구현기능
 
 ![image-"구현기능1"](img/Function1.jpg)  
 ![image-"구현기능2"](img/Function2.jpg)
