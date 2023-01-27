@@ -14,16 +14,17 @@ window.onload=function()
 {
 	init();
 }
-
 function init(){
 	var frm_mod_goods=document.frm_mod_goods;
 	var h_goods_status=frm_mod_goods.h_goods_status;
 	var goods_status=h_goods_status.value;
 	var select_goods_status=frm_mod_goods.goods_status;
 	 select_goods_status.value=goods_status;
+	var h_goods_sort=frm_mod_goods.h_goods_sort;
+	var goods_sort=h_goods_sort.value;
+	var select_goods_sort=frm_mod_goods.goods_sort;
+		 select_goods_sort.value=goods_sort; 
 }
-
-
 </script>
 </c:when>
 </c:choose>
@@ -68,8 +69,6 @@ function fn_modify_goods(goods_id, attribute){
 	}else if(attribute=='recommendation'){
 		value=frm_mod_goods.recommendation.value;
 	}
-
-
 	$.ajax({
 		type : "post",
 		async : false, //false인 경우 동기식으로 처리한다.
@@ -96,9 +95,6 @@ function fn_modify_goods(goods_id, attribute){
 		}
 	}); //end ajax	
 }
-
-
-
   function readURL(input,preview) {
 	//  alert(preview);
     if (input.files && input.files[0]) {
@@ -109,7 +105,6 @@ function fn_modify_goods(goods_id, attribute){
         reader.readAsDataURL(input.files[0]);
     }
   }  
-
   var cnt =1;
   function fn_addFile(){
 	  $("#d_file").append("<br>"+"<input  type='file' name='detail_image"+cnt+"' id='detail_image"+cnt+"'  onchange=readURL(this,'previewImage"+cnt+"') />");
@@ -161,7 +156,6 @@ function fn_modify_goods(goods_id, attribute){
   
   function deleteImageFile(goods_id,image_id,imageFileName,trId){
 	var tr = document.getElementById(trId);
-
       	$.ajax({
     		type : "post",
     		async : true, //false인 경우 동기식으로 처리한다.
