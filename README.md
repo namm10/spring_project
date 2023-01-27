@@ -47,6 +47,14 @@
     
 </br></br></br></br></br>
  
+ 
+## 구현기능
+![image-"구현기능1"](img/function1.jpg) ![image-"구현기능2"](img/function2.jpg)
+
+
+</br></br></br></br></br>
+
+
 ## :clipboard: 요구사항명세서
 
 ### :unlock: 사용자
