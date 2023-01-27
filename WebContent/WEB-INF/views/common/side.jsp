@@ -50,7 +50,7 @@ width:1186px; height: 70px; font-size: 30px; font-weight:bold;}
 		<ul>
 
 			<li><a href="${contextPath}/board/noticeBo/listNoticeBoards.do">공지사항 게시판</a></li>
-			<li><a href="${contextPath}/board/reViewBo/listreViewBoards.do">상품 후기</a></li>
+			<li><a href="${contextPath}/board/reViewBo/listreViewBoards.do">상품 후기 게시판</a></li>
 			<li><a href="${contextPath}/board/qnaBo/listqnaBoards.do">문의사항 게시판</a></li>
 			<li><a href="${contextPath}/board/freeBo/listFreeBoards.do">자유게시판</a></li>
 		</ul>
