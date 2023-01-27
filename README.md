@@ -62,12 +62,12 @@
 ## :clipboard: 요구사항명세서
 
 ### :unlock: 사용자
-![image-"사용자명세서"](img/user.png)
+![image-"사용자명세서"](img/user.jpg)
 
 
 
 ### :lock: 관리자
-![image-"관리자명세서"](img/admin.png)
+![image-"관리자명세서"](img/admin.jpg)
     
 </br></br></br></br></br>
  
