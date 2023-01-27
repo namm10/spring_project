@@ -25,7 +25,7 @@
 3. <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 4.3.9.22
 4. <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"> 11.2.0
 5. <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> tomcat Server 9
-6. ![image-"마이바티스"](img/mybatis.jpg) 3.4.6
+6. ![image-"마이바티스"](img/mybatis1.jpg) 3.4.6
 7. ![image-"에이젝"](img/ajax1.jpg)
 
 
