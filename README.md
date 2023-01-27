@@ -26,7 +26,7 @@
 4. <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"> 11.2.0
 5. <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> tomcat Server 9
 6. ![image-"마이바티스"](img/mybatis.jpg) 3.4.6
-7. ![image-"에이젝"](img/ajax.jpg)
+7. ![image-"에이젝"](img/ajax1.jpg)
 
 
     
