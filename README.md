@@ -24,10 +24,9 @@
 2. <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 11
 3. <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> 4.3.9.22
 4. <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"> 11.2.0
-5. Mybatis: 3.4.6
-6. <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> tomcat Server 9
-7. ajax
-8. HicariCP: 2.7.4
+5. <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> tomcat Server 9
+6. Mybatis: 3.4.6
+7. HicariCP: 2.7.4
 
 
     
