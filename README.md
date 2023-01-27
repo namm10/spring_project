@@ -74,13 +74,6 @@
 
 https://www.miricanvas.com/v/11pnl9f 
     
-</br></br></br></br></br>
- 
-## :information_desk_person: 시연 영상
-
-
-
-## :video_camera: 광고 영상
     
 </br></br></br></br></br>
  
