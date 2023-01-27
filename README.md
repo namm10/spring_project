@@ -73,7 +73,7 @@
  
 ## :file_folder: 발표 자료
 
-https://www.miricanvas.com/v/11pnl9f
+https://www.miricanvas.com/v/11pnl9f 
     
 </br></br></br></br></br>
  
