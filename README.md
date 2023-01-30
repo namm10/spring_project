@@ -73,7 +73,7 @@
  
 ## :file_folder: 발표 자료
 
-https://www.miricanvas.com/v/11pnl9f 
+https://www.miricanvas.com/v/11pnl9f :point_left:
     
     
 </br></br></br></br></br>
@@ -156,7 +156,7 @@ https://www.miricanvas.com/v/11pnl9f
 
 ## :tv: TOTAL REVIEW  
 
-https://clipchamp.com/watch/lHtRYz638N6
+https://clipchamp.com/watch/lHtRYz638N6 :point_left:
 
 
 </br></br></br></br></br>
