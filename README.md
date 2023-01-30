@@ -153,24 +153,30 @@ https://www.miricanvas.com/v/11pnl9f
 </br></br>
 
 
+## :tv: TOTAL REVEIW
+
+https://clipchamp.com/watch/lHtRYz638N6
 
 
+## :sparkles: 다이어그램
 
-## 유스케이스 다이어그램
+</br></br>
+
+### 유스케이스 다이어그램
 </br>
 
 ![image-"유스케이스"](img/UseCase.gif)
 
 </br></br>
 
-## 시퀀스 다이어그램
+### 시퀀스 다이어그램
 </br>
 
 ![image-"유스케이스"](img/Sequence.png)
 
 </br></br>
 
-## ERD
+### ERD
 </br>
 
 ![image-"유스케이스"](img/ERD.png)
