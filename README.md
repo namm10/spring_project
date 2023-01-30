@@ -14,7 +14,7 @@
  
 ## :wrench: 기술 스택
 
-![image-"기술스택"](img/TechnologyStack.jpg)
+![image-"기술스택"](img/TechnologyStack1.jpg)
 </br>
 
 1. <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
@@ -26,7 +26,8 @@
 4. <img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white"> 11.2.0
 5. <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white"> tomcat Server 9
 6. ![image-"마이바티스"](img/mybatis1.jpg) 3.4.6
-7. ![image-"에이젝"](img/ajax1.jpg)
+7. ![image-"타일즈"](img/Tiles.jpg)  2.2.2
+8. ![image-"에이젝"](img/ajax1.jpg)
 
 
     
