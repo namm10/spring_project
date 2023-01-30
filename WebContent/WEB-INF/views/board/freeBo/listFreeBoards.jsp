@@ -149,7 +149,7 @@
 						<!-- 글 개수가 100 초과인경우 -->
 						<c:forEach var="page" begin="1" end="10" step="1">
 							<c:if test="${section > 1 && page==1 }">
-								<%-- <a class="no-uline" href="${contextPath }/board/freeBo/listFreeBoards.do?section=${section-1}&pageNum=${(section-1)*10 +1 }">&nbsp;pre </a> --%>
+								
 								<a class="no-uline" href="${contextPath }/board/freeBo/listFreeBoards.do?section=${section-1}&pageNum=${(section-1)*10 +1 }" class="btnPre">
 									<img width="20px" alt="" src="/marketSpring/resources/image/btn_pre.png">									
 								</a>
@@ -163,7 +163,7 @@
 								</c:otherwise>
 							</c:choose>
 							<c:if test="${page == 10 }">
-								<%-- <a class="no-uline" href="${contextPath }/board/freeBo/listFreeBoards.do?section=${section+1}&pageNum=${section*10+1}">&nbsp;next</a> --%>
+								
 								<a class="no-uline" href="${contextPath }/board/freeBo/listFreeBoards.do?section=${section+1}&pageNum=${section*10+1}" class="btnNext">
 									<img width="20px" alt="" src="/marketSpring/resources/image/btn_next.png">
 								</a>

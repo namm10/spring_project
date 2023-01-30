@@ -96,8 +96,6 @@
 			</tr>
 		</thead>
 		
-		<%-- <c:if test="${empty freeBoardsList }"> --%>
-		<%-- </c:if> --%>
 		<c:choose>
 			<c:when test="${qnaBoardsList == null }">
 				<tr><td colspan="5">작성/조회된 글이 없습니다.</td></tr>
@@ -113,9 +111,7 @@
 								<c:if test="${qnaBoard.is_del eq 1}">
 									삭제된 글 입니다.
 								</c:if>
-								<c:if test="${qnaBoard.is_del != 1}">
-									<%-- <a href="freeBoarddetail.do?seq=${freeBoard.seq }&room_seq=${freeBoard.room_seq}" data-toggle="modal" data-target="#myPdsModal">${freeBoard.title }</a> --%>
-									
+								<c:if test="${qnaBoard.is_del != 1}">									
 									<c:choose>
 										<c:when test='${qnaBoard.level > 1 }'>
 											<c:forEach begin="1" end="${qnaBoard.level }" step="1">

@@ -148,8 +148,6 @@
 			</tr>
 		</thead>
 		
-		<%-- <c:if test="${empty noticeBoardsList }"> --%>
-		<%-- </c:if> --%>
 		<c:choose>
 			<c:when test="${noticeBoardsList == null }">
 				<tr><td colspan="5">작성/조회된 글이 없습니다.</td></tr>
@@ -165,7 +163,7 @@
 									삭제된 글 입니다.
 								</c:if>
 								<c:if test="${noticeBoard.is_del != 1}">
-									<%-- <a href="noticeBoarddetail.do?seq=${noticeBoard.seq }&room_seq=${noticeBoard.room_seq}" data-toggle="modal" data-target="#myPdsModal">${noticeBoard.title }</a> --%>
+									
 									<span style="padding-right: 30px"></span>
 									<c:choose>
 										<c:when test='${noticeBoard.level > 1 }'>

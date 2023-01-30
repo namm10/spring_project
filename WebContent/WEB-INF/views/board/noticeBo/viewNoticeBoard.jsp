@@ -240,7 +240,7 @@
 					</c:if>
 				</c:if>
 					<input type=button value="리스트로 돌아가기" onClick="backToList(this.form)"> 
-					<%-- <input type=button value="답글쓰기" onClick="fn_reply_form('${isLogOn}', '${contextPath}/board/noticeBo/replyForm.do', ${noticeBoard.notice_bo_no})"> --%>
+					
 				</td>
 			</tr>
 		</table>

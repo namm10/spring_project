@@ -190,14 +190,6 @@
 						<input type="button" value="이미지 삭제하기" onclick="fn_removeModImage(${item.qna_bo_img_no },  ${item.qna_bo_no }, '${item.img_filename }' )" />
 					</div>
 				</td>
-<%-- 		</tr>
-			<tr class="tr_modEnable">
-				<td></td>
-				<td>
-					<input type="file" name="imgFileName${status.index }" id="i_imgFileName${status.index }" onchange="readURL(this, ${status.index });" />
-					<input type="button" value="이미지 삭제하기" onclick="fn_removeModImage(${item.qna_bo_img_no },  ${item.qna_bo_no }, '${item.img_filename }' )" />
-				</td>
-			</tr> --%>
 			<c:if test="${status.last eq true }">
 				<c:set var="img_index" value="${status.count}" />
 				<input type="hidden" name="pre_img_num" value="${status.count}" />
