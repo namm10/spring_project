@@ -74,6 +74,8 @@
 ## :file_folder: 발표 자료
 
 https://www.miricanvas.com/v/11pnl9f :point_left:
+↑안될 시 img파일 > SPRING_PROJECT_FIVE_MART_2조.ppt
+
     
     
 </br></br></br></br></br>
