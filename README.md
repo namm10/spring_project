@@ -158,7 +158,7 @@ https://www.miricanvas.com/v/11pnl9f :point_left: </br>
 
 ## :tv: TOTAL REVIEW  
 
-https://clipchamp.com/watch/lHtRYz638N6 :point_left:
+https://clipchamp.com/watch/lHtRYz638N6 :point_left: </br>
 ↑ 링크 안될 시 img파일 > TotalReview.mp4
 
 
